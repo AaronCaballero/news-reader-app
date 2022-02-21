@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Redbull F1",
+        "description": "Presentation of the F1 Redbull...",
+        "date": { "$date": "2022-02-10T10:00:00.000Z" },
+        "content": "This would be the new car for the 2022 season presented by this iconic brand.",
+        "author": "Henry",
+        "archiveDate": ""
+    },
+    {
+        "title": "Mercedes F1",
+        "description": "Presentation of the F1 Mercedes...",
+        "date": { "$date": "2022-02-11T10:00:00.000Z" },
+        "content": "This would be the new car for the 2022 season presented by this iconic brand.",
+        "author": "Mark",
+        "archiveDate": ""
+    },
+    {
+        "title": "Ferrari F1",
+        "description": "Presentation of the F1 Ferrari...",
+        "date": { "$date": "2022-02-12T10:00:00.000Z" },
+        "content": "This would be the new car for the 2022 season presented by this iconic brand.",
+        "author": "William",
+        "archiveDate": ""
+    },
+    {
+        "title": "Alpine F1",
+        "description": "Presentation of the F1 Alpine...",
+        "date": { "$date": "2022-02-13T10:00:00.000Z" },
+        "content": "This would be the new car for the 2022 season presented by this iconic brand.",
+        "author": "Hector",
+        "archiveDate": ""
+    },
+    {
+        "title": "Aston Martin F1",
+        "description": "Presentation of the F1 Aston Martin...",
+        "date": { "$date": "2022-02-14T10:00:00.000Z" },
+        "content": "This would be the new car for the 2022 season presented by this iconic brand.",
+        "author": "Tommy",
+        "archiveDate": ""
+    },
+    {
+        "title": "Mclaren F1",
+        "description": "Presentation of the F1 Mclaren...",
+        "date": { "$date": "2022-02-15T10:00:00.000Z" },
+        "content": "This would be the new car for the 2022 season presented by this iconic brand.",
+        "author": "Juan",
+        "archiveDate": ""
+    }
+]
