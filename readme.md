@@ -8,6 +8,8 @@ Este proyecto se basa en crear un lector de noticias web. Para ello se empleará
 * Bootstrap
 Se ha creado mediante el concepto de single page application de React. Para que sea lo más fluido posible.
 
+![image](https://user-images.githubusercontent.com/35968258/154951808-d365999f-401e-479c-ab8d-efb5cc65a796.png)
+
 ## Pipeline
 
 ### Backend
