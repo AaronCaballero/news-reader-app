@@ -27,6 +27,30 @@ app.get('/api/news', async (req, res) => {
         .then(allNews => res.json(allNews));
 });
 
+// Insert news
+app.post('/api/addNews', async (req, res) => {
+    const title = req.body.title;
+    const description = req.body.description;
+    const date = req.body.date;
+    const content = req.body.content;
+    const author = req.body.author;
+    const archiveDate = req.body.archiveDate;
+    try {
+        const news = new NewsModel({
+            title: title,
+            description: description,
+            date: date,
+            content: content,
+            author: author,
+            archiveDate: archiveDate
+        });
+        await news.save();
+        res.send('inserted');
+    } catch (err) {
+        console.log(err);
+    }
+});
+
 // Update news to archived
 app.put('/api/archiveNews', async (req, res) => {
     const id = req.body.id;
