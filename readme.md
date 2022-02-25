@@ -25,8 +25,8 @@ Se ha creado mediante el concepto de single page application de React. Para que 
 * Se instala bootstrap `npm install --save bootstrap.`
 
 ### LLamadas a BBDD:
-* Obtener datos archivados:     `.find({ "archiveDate": { $ne: "" } })`
-* Obtener datos no archivados:  `.find({ "archiveDate": "" })`
+* Obtener datos archivados:     `.find({ "archiveDate": { $ne: "" } }).sort({archiveDate:1});`
+* Obtener datos no archivados:  `.find({ "archiveDate": "" }).sort({date:1});`
 
 ## Execution
 * Inicializar backend: `nodemon server.js`
