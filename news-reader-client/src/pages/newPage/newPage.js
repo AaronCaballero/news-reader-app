@@ -32,7 +32,7 @@ const NewPage = () => {
             <NavBar />
 
             {news
-                .filter(eachNews => eachNews.archiveDate == null || eachNews.archiveDate === '')
+                .filter(eachNews => eachNews.archiveDate === null || eachNews.archiveDate === '')
                 .map(eachNews => {
                     return (
                         <div className='center'>

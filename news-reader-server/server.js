@@ -35,17 +35,21 @@ app.put('/api/archiveNews', async (req, res) => {
             newsToUpdate.archiveDate = new Date;
             newsToUpdate.save();
         }).clone();
+        res.send('updated');
     } catch (err) {
         console.log(err);
     }
-    res.send('updated');
 });
 
 // Delete
 app.delete('/api/deleteNews/:id', async (req, res) => {
     const id = req.params.id;
-    await NewsModel.findByIdAndRemove(id).exec();
-    res.send('deleted');
+    try {
+        await NewsModel.findByIdAndRemove(id).exec();
+        res.send('deleted');
+    } catch (err) {
+        console.log(err);
+    }
 });
 
 
